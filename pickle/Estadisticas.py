@@ -3,14 +3,14 @@ import matplotlib.pyplot as plt
 import pickle
 
 # ========== EXTRACCIÓN DE DATOS ==============
-archivo = open('HiTS2013_100k_samples(4_channels)_images_labels.pkl',"rb")
+archivo = open('/home/endredra/Desktop/Int_proj/EL4106-1oProyecto/dataset/HiTS2013_100k_samples(4_channels)_images_labels.pkl',"rb")
 example_dict = pickle.load(archivo)
 
 print()
-print(example_dict['labels'].shape)
+print(example_dict['images'].shape)
 
 print()
-xx = example_dict['labels'][:, :, :, 1]
+xx = example_dict['images'][:, :, :, 1]
 print(xx[0].shape)
 
 #x = np.zeros((2, 3, 4, 4))
