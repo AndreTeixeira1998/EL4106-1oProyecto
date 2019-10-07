@@ -12,11 +12,17 @@ Ejecute con Jupyter Notebook todas las celdas y secuencialmente.
 Requisitos y Librerías:
 
 Python 3.7
+
 numpy
+
 matplotlib
+
 tensorflow==1.14.0
+
 keras==2.3.0
+
 pickle
+
 sklearn
 
 Se recomienda Anaconda 3 Python Notebook.
