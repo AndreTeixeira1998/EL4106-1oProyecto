@@ -5,7 +5,7 @@
 André Teixeira y Raydel Ortigueira
 
 
-Para ejecutar debe crear una carpeta llamada "dataset" en la carpeta del proyecto y poner el archivo "HiTS2013_100k_samples (4_channels) _images_labels.pkl".
+Para ejecutar debe crear una carpeta llamada "dataset" en la carpeta del proyecto y poner los archivo "HiTS2013_100k_samples (4_channels) _images_labels.pkl" y "OCmaps_F.pkl".
 
 Ejecute con Jupyter Notebook todas las celdas y secuencialmente.
 
